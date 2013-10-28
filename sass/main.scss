@@ -1,7 +1,7 @@
 // frameworks
 @import "compass";
-@import "bourbon/bourbon"; // css3 mixins
-@import "neat/neat"; // semantic minimal grid
+@import "libs/bourbon/bourbon"; // css3 mixins
+@import "libs/neat/neat"; // semantic minimal grid
 
 
 // sass libraries 
@@ -10,12 +10,10 @@
 
 
 // partials
+@import "partials/variables"; // global variables and defaults go here  
 @import "partials/grid";  // for grid params
 @import "partials/mixins"; // for custom mixins
 @import "partials/font";  // type set up { @font-face }
-
-// global variables and defaults go here  
-@import "partials/app";
 
 // site elements add more as site grows in complexity
 @import "elements/header";

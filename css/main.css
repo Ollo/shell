@@ -154,6 +154,12 @@ textarea { overflow: auto; vertical-align: top; }
 table { border-collapse: collapse; border-spacing: 0; }
 
 /* line 15, ../sass/partials/_grid.scss */
+html * { position: relative; margin: 0; padding: 0; }
+
+/* line 22, ../sass/partials/_grid.scss */
+body { background: #cccccc; font-size: 16px; line-height: 24px; }
+
+/* line 28, ../sass/partials/_grid.scss */
 .wrapper { *zoom: 1; max-width: 71.25em; margin-left: auto; margin-right: auto; }
 /* line 18, ../sass/libs/bourbon/addons/_clearfix.scss */
 .wrapper:before, .wrapper:after { content: " "; display: table; }

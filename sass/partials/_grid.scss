@@ -18,6 +18,9 @@ $tablet: new-breakpoint(max-width 768px 8);
 	padding: 0;
 }
 
+html {
+	background: #ececec;
+}
 
 body {
 	font-size: $base_font_size;

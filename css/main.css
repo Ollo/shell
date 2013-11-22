@@ -303,10 +303,13 @@ table { border-collapse: collapse; border-spacing: 0; }
 /* line 15, ../sass/partials/_grid.scss */
 * { position: relative; margin: 0; padding: 0; }
 
-/* line 22, ../sass/partials/_grid.scss */
+/* line 21, ../sass/partials/_grid.scss */
+html { background: #ececec; }
+
+/* line 25, ../sass/partials/_grid.scss */
 body { font-size: 1em; line-height: 1.5em; }
 
-/* line 27, ../sass/partials/_grid.scss */
+/* line 30, ../sass/partials/_grid.scss */
 .wrapper { *zoom: 1; max-width: 71.25em; margin-left: auto; margin-right: auto; }
 /* line 18, ../sass/libs/bourbon/addons/_clearfix.scss */
 .wrapper:before, .wrapper:after { content: " "; display: table; }

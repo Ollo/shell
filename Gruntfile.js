@@ -1,64 +1,62 @@
-/*global module:false*/
-module.exports = function(grunt) {
-
-  // Project configuration.
-  grunt.initConfig({
-    // Task configuration.
-    jshint: {
-      options: {
-        curly: true,
-        eqeqeq: true,
-        immed: true,
-        latedef: true,
-        newcap: true,
-        noarg: true,
-        sub: true,
-        undef: true,
-        unused: true,
-        boss: true,
-        eqnull: true,
-        browser: true,
-        globals: {
-          jQuery: true
-        }
-      },
-      gruntfile: {
-        src: 'Gruntfile.js'
-      },
-      lib_test: {
-        src: ['lib/**/*.js', 'test/**/*.js']
-      }
-    },
-    qunit: {
-      files: ['test/**/*.html']
-    },
-    watch: {
-      gruntfile: {
-        files: '<%= jshint.gruntfile.src %>',
-        tasks: ['jshint:gruntfile']
-      },
-      lib_test: {
-        files: '<%= jshint.lib_test.src %>',
-        tasks: ['jshint:lib_test', 'qunit']
-      }
-    },
+// Configuring Grunt tasks:
+// http://gruntjs.com/configuring-tasks
+module.exports = function (grunt) {
+    grunt.initConfig({
+    pkg: grunt.file.readJSON('package.json'),
+    
+    // Compass task: https://npmjs.org/package/grunt-contrib-compass
     compass: {
       dist: {
         options: {
+          // use default Compass config
           config: 'config.rb'
         }
       }
-    }
+    },
+ 
+    // Watch task: https://npmjs.org/package/grunt-contrib-watch
+    // Includes LiveReload whenever specified files change
+    // 
+    // Using browser extension:
+    // http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-
+    watch: {
+      css: {
+        // if Sass files change, run the compass task and livereload
+        files: [
+          '**/*.scss',
+        ],
+        tasks: ['compass'],
+        options: {
+          livereload: true,
+        },
+      },
+      scripts: {
+        // if js files change, livereload only
+        files: [
+          'js/*.js',
+        ],
+        options: {
+          livereload: true,
+        },
+      },
+      images: {
+        // if images change, livereload only
+        files: [
+          'images/{,**/}*.{png,jpg,jpeg,gif,webp,svg}'
+        ],
+        options: {
+          livereload: true,
+        },
+      },
+    },
   });
-
-  // These plugins provide necessary tasks.
-  grunt.loadNpmTasks('grunt-contrib-qunit');
-  grunt.loadNpmTasks('grunt-contrib-jshint');
-  grunt.loadNpmTasks('grunt-contrib-watch');
+ 
+  // Load the plugin(s)
+  //grunt.loadNpmTasks('grunt-concurrent');
   grunt.loadNpmTasks('grunt-contrib-compass');
-
-
-  // Default task.
-  grunt.registerTask('default', ['jshint', 'qunit', 'compass']);
-
+  grunt.loadNpmTasks('grunt-contrib-watch');
+ 
+  // Default task(s).
+  // grunt.registerTask('default', ['concurrent:target1']);
+  grunt.registerTask('default', ['watch']);
 };

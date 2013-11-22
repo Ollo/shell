@@ -1,11 +1,10 @@
 {
-  "name": "shell",
-  "version": "0.1.0",
+  "name": "MemeMe",
+  "description": "grunt config",
+  "version": "1.0.0",
   "devDependencies": {
     "grunt": "~0.4.1",
-    "grunt-contrib-jshint": "~0.6.3",
-    "grunt-contrib-nodeunit": "~0.2.0",
-    "grunt-contrib-compass": "~0.6.0",
-    "reload": "~0.1.0"
+    "grunt-contrib-compass": "~0.5.0",
+    "grunt-contrib-watch": "~0.5.1"
   }
 }

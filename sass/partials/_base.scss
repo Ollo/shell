@@ -1,0 +1,44 @@
+
+
+* {
+	position: relative;
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	//background: #ececec;
+}
+
+body {
+	font-size: $base_font_size;
+	line-height: $base_line_height;
+}
+
+.wrapper {
+	@include outer-container;
+	margin-left: 0;
+}
+
+.grid {
+	padding: 1em;
+	height: em(400);
+	@include span-columns(16);
+	background: red;
+	
+
+	@include media($desktop) {
+		@include span-columns(12);
+		background: orange;
+	}
+
+	@include media($tablet) {
+		@include span-columns(8);
+		background: yellow;
+	}
+
+	@include media($mobile) {
+		@include span-columns(4);
+		background: green;
+	}
+}

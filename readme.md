@@ -7,3 +7,5 @@ a basic shell for static site builds using:
 + bourbon <http://bourbon.io>
 + bourbon neat <http://neat.bourbon.io>
 + bourbon bitters <http://bitters.bourbon.io>
+
+grid demo : <http://ollo.github.io/shell/>

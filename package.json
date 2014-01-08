@@ -1,6 +1,6 @@
 {
-  "name": "MemeMe",
-  "description": "grunt config",
+  "name": "Shell",
+  "description": "boiler front end",
   "version": "1.0.0",
   "devDependencies": {
     "grunt": "~0.4.1",

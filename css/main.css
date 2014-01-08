@@ -325,21 +325,21 @@ body { font-size: 1em; line-height: 1.5em; }
 .wrapper:after { clear: both; }
 
 /* line 23, ../sass/partials/_base.scss */
-.grid { padding: 1em; height: 25em; display: block; float: left; margin-right: 1.75788%; width: 100%; background: red; }
+#gridTest { padding: 1em; height: 25em; display: block; float: left; margin-right: 1.75788%; width: 100%; background: red; }
 /* line 54, ../sass/libs/neat/grid/_span-columns.scss */
-.grid:last-child { margin-right: 0; }
+#gridTest:last-child { margin-right: 0; }
 @media screen and (min-width: 1024px) and (max-width: 1280px) { /* line 23, ../sass/partials/_base.scss */
-  .grid { display: block; float: left; margin-right: 2.35765%; width: 100%; background: orange; }
+  #gridTest { display: block; float: left; margin-right: 2.35765%; width: 100%; background: orange; }
   /* line 54, ../sass/libs/neat/grid/_span-columns.scss */
-  .grid:last-child { margin-right: 0; } }
+  #gridTest:last-child { margin-right: 0; } }
 @media screen and (min-width: 481px) and (max-width: 1023px) { /* line 23, ../sass/partials/_base.scss */
-  .grid { display: block; float: left; margin-right: 3.57866%; width: 100%; background: yellow; }
+  #gridTest { display: block; float: left; margin-right: 3.57866%; width: 100%; background: yellow; }
   /* line 54, ../sass/libs/neat/grid/_span-columns.scss */
-  .grid:last-child { margin-right: 0; } }
+  #gridTest:last-child { margin-right: 0; } }
 @media screen and (min-width: 320px) and (max-width: 480px) { /* line 23, ../sass/partials/_base.scss */
-  .grid { display: block; float: left; margin-right: 7.42297%; width: 100%; background: green; }
+  #gridTest { display: block; float: left; margin-right: 7.42297%; width: 100%; background: green; }
   /* line 54, ../sass/libs/neat/grid/_span-columns.scss */
-  .grid:last-child { margin-right: 0; } }
+  #gridTest:last-child { margin-right: 0; } }
 
 /* line 1, ../sass/elements/_header.scss */
 hgroup { padding: 1em; }

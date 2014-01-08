@@ -21,4 +21,17 @@
     }
 }());
 
+// load livereload for local dev
+var loadReload = function() {
+
+    var lr = document.createElement("script");
+        lr.type = "text/javascript";
+        lr.src = "//localhost:35729/livereload.js";
+        
+    if ($('#globalFooter')) {    
+        $('#globalFooter').append(lr);        
+        console.log('livereload is activated');
+    }
+}
+
 // Place any jQuery/helper plugins in here.

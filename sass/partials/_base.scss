@@ -20,7 +20,7 @@ body {
 	margin-left: 0;
 }
 
-.grid {
+#gridTest {
 	padding: 1em;
 	height: em(400);
 	@include span-columns(16);

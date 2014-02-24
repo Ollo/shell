@@ -1,5 +1,3 @@
-
-
 * {
 	position: relative;
 	margin: 0;
@@ -7,38 +5,34 @@
 }
 
 html {
-	//background: #ececec;
+	overflow-x: hidden;
+	font-size: 62.5%;
 }
 
 body {
-	font-size: $base_font_size;
-	line-height: $base_line_height;
+	font-size: 1.6rem;
 }
 
-.wrapper {
-	@include outer-container;
-	margin-left: 0;
-}
-
-.grid {
-	padding: 1em;
-	height: em(400);
-	@include span-columns(16);
-	background: red;
+a {
+	text-decoration: none;
+	@include transition(color 2s ease-in);
 	
+	&:hover {
 
-	@include media($desktop) {
-		@include span-columns(12);
-		background: orange;
 	}
+}
 
-	@include media($tablet) {
-		@include span-columns(8);
-		background: yellow;
-	}
+::selection {
+	background: aqua;
+}
 
-	@include media($mobile) {
-		@include span-columns(4);
-		background: green;
-	}
+::moz-selection {
+	background: aqua;
+}
+
+.oldies {
+	background: lighten($charcoal, 20%);
+	color: $white;
+	text-align: center;
+	padding: 1rem 0;
 }

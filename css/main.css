@@ -1,169 +1,11 @@
 /* line 2, ../sass/libs/neat/grid/_grid.scss */
 * { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
 
-/* line 11, ../sass/libs/neat/grid/_visual-grid.scss */
-body:before { content: ''; display: inline-block; background-image: deprecated-webkit-gradient(linear, left top, left bottom, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); height: 100%; left: 0; margin: 0 auto; max-width: 123.75em; opacity: 0.4; position: fixed; right: 0; width: 100%; z-index: -1; }
-@media screen and (min-width: 320px) and (max-width: 480px) { /* line 11, ../sass/libs/neat/grid/_visual-grid.scss */
-  body:before { background-image: deprecated-webkit-gradient(linear, left top, left bottom, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 19.43277%, rgba(0, 0, 0, 0) 19.43277%, rgba(0, 0, 0, 0) 26.85574%, #eeeeee 26.85574%, #eeeeee 46.28851%, rgba(0, 0, 0, 0) 46.28851%, rgba(0, 0, 0, 0) 53.71149%, #eeeeee 53.71149%, #eeeeee 73.14426%, rgba(0, 0, 0, 0) 73.14426%, rgba(0, 0, 0, 0) 80.56723%, #eeeeee 80.56723%, #eeeeee 100%, rgba(0, 0, 0, 0) 100%); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 19.43277%, rgba(0, 0, 0, 0) 19.43277%, rgba(0, 0, 0, 0) 26.85574%, #eeeeee 26.85574%, #eeeeee 46.28851%, rgba(0, 0, 0, 0) 46.28851%, rgba(0, 0, 0, 0) 53.71149%, #eeeeee 53.71149%, #eeeeee 73.14426%, rgba(0, 0, 0, 0) 73.14426%, rgba(0, 0, 0, 0) 80.56723%, #eeeeee 80.56723%, #eeeeee 100%, rgba(0, 0, 0, 0) 100%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 19.43277%, rgba(0, 0, 0, 0) 19.43277%, rgba(0, 0, 0, 0) 26.85574%, #eeeeee 26.85574%, #eeeeee 46.28851%, rgba(0, 0, 0, 0) 46.28851%, rgba(0, 0, 0, 0) 53.71149%, #eeeeee 53.71149%, #eeeeee 73.14426%, rgba(0, 0, 0, 0) 73.14426%, rgba(0, 0, 0, 0) 80.56723%, #eeeeee 80.56723%, #eeeeee 100%, rgba(0, 0, 0, 0) 100%); background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 19.43277%, rgba(0, 0, 0, 0) 19.43277%, rgba(0, 0, 0, 0) 26.85574%, #eeeeee 26.85574%, #eeeeee 46.28851%, rgba(0, 0, 0, 0) 46.28851%, rgba(0, 0, 0, 0) 53.71149%, #eeeeee 53.71149%, #eeeeee 73.14426%, rgba(0, 0, 0, 0) 73.14426%, rgba(0, 0, 0, 0) 80.56723%, #eeeeee 80.56723%, #eeeeee 100%, rgba(0, 0, 0, 0) 100%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 19.43277%, rgba(0, 0, 0, 0) 19.43277%, rgba(0, 0, 0, 0) 26.85574%, #eeeeee 26.85574%, #eeeeee 46.28851%, rgba(0, 0, 0, 0) 46.28851%, rgba(0, 0, 0, 0) 53.71149%, #eeeeee 53.71149%, #eeeeee 73.14426%, rgba(0, 0, 0, 0) 73.14426%, rgba(0, 0, 0, 0) 80.56723%, #eeeeee 80.56723%, #eeeeee 100%, rgba(0, 0, 0, 0) 100%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 19.43277%, rgba(0, 0, 0, 0) 19.43277%, rgba(0, 0, 0, 0) 26.85574%, #eeeeee 26.85574%, #eeeeee 46.28851%, rgba(0, 0, 0, 0) 46.28851%, rgba(0, 0, 0, 0) 53.71149%, #eeeeee 53.71149%, #eeeeee 73.14426%, rgba(0, 0, 0, 0) 73.14426%, rgba(0, 0, 0, 0) 80.56723%, #eeeeee 80.56723%, #eeeeee 100%, rgba(0, 0, 0, 0) 100%); } }
-@media screen and (min-width: 481px) and (max-width: 1023px) { /* line 11, ../sass/libs/neat/grid/_visual-grid.scss */
-  body:before { background-image: deprecated-webkit-gradient(linear, left top, left bottom, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 9.36867%, rgba(0, 0, 0, 0) 9.36867%, rgba(0, 0, 0, 0) 12.94733%, #eeeeee 12.94733%, #eeeeee 22.316%, rgba(0, 0, 0, 0) 22.316%, rgba(0, 0, 0, 0) 25.89467%, #eeeeee 25.89467%, #eeeeee 35.26334%, rgba(0, 0, 0, 0) 35.26334%, rgba(0, 0, 0, 0) 38.842%, #eeeeee 38.842%, #eeeeee 48.21067%, rgba(0, 0, 0, 0) 48.21067%, rgba(0, 0, 0, 0) 51.78933%, #eeeeee 51.78933%, #eeeeee 61.158%, rgba(0, 0, 0, 0) 61.158%, rgba(0, 0, 0, 0) 64.73666%, #eeeeee 64.73666%, #eeeeee 74.10533%, rgba(0, 0, 0, 0) 74.10533%, rgba(0, 0, 0, 0) 77.684%, #eeeeee 77.684%, #eeeeee 87.05267%, rgba(0, 0, 0, 0) 87.05267%, rgba(0, 0, 0, 0) 90.63133%, #eeeeee 90.63133%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 9.36867%, rgba(0, 0, 0, 0) 9.36867%, rgba(0, 0, 0, 0) 12.94733%, #eeeeee 12.94733%, #eeeeee 22.316%, rgba(0, 0, 0, 0) 22.316%, rgba(0, 0, 0, 0) 25.89467%, #eeeeee 25.89467%, #eeeeee 35.26334%, rgba(0, 0, 0, 0) 35.26334%, rgba(0, 0, 0, 0) 38.842%, #eeeeee 38.842%, #eeeeee 48.21067%, rgba(0, 0, 0, 0) 48.21067%, rgba(0, 0, 0, 0) 51.78933%, #eeeeee 51.78933%, #eeeeee 61.158%, rgba(0, 0, 0, 0) 61.158%, rgba(0, 0, 0, 0) 64.73666%, #eeeeee 64.73666%, #eeeeee 74.10533%, rgba(0, 0, 0, 0) 74.10533%, rgba(0, 0, 0, 0) 77.684%, #eeeeee 77.684%, #eeeeee 87.05267%, rgba(0, 0, 0, 0) 87.05267%, rgba(0, 0, 0, 0) 90.63133%, #eeeeee 90.63133%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 9.36867%, rgba(0, 0, 0, 0) 9.36867%, rgba(0, 0, 0, 0) 12.94733%, #eeeeee 12.94733%, #eeeeee 22.316%, rgba(0, 0, 0, 0) 22.316%, rgba(0, 0, 0, 0) 25.89467%, #eeeeee 25.89467%, #eeeeee 35.26334%, rgba(0, 0, 0, 0) 35.26334%, rgba(0, 0, 0, 0) 38.842%, #eeeeee 38.842%, #eeeeee 48.21067%, rgba(0, 0, 0, 0) 48.21067%, rgba(0, 0, 0, 0) 51.78933%, #eeeeee 51.78933%, #eeeeee 61.158%, rgba(0, 0, 0, 0) 61.158%, rgba(0, 0, 0, 0) 64.73666%, #eeeeee 64.73666%, #eeeeee 74.10533%, rgba(0, 0, 0, 0) 74.10533%, rgba(0, 0, 0, 0) 77.684%, #eeeeee 77.684%, #eeeeee 87.05267%, rgba(0, 0, 0, 0) 87.05267%, rgba(0, 0, 0, 0) 90.63133%, #eeeeee 90.63133%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 9.36867%, rgba(0, 0, 0, 0) 9.36867%, rgba(0, 0, 0, 0) 12.94733%, #eeeeee 12.94733%, #eeeeee 22.316%, rgba(0, 0, 0, 0) 22.316%, rgba(0, 0, 0, 0) 25.89467%, #eeeeee 25.89467%, #eeeeee 35.26334%, rgba(0, 0, 0, 0) 35.26334%, rgba(0, 0, 0, 0) 38.842%, #eeeeee 38.842%, #eeeeee 48.21067%, rgba(0, 0, 0, 0) 48.21067%, rgba(0, 0, 0, 0) 51.78933%, #eeeeee 51.78933%, #eeeeee 61.158%, rgba(0, 0, 0, 0) 61.158%, rgba(0, 0, 0, 0) 64.73666%, #eeeeee 64.73666%, #eeeeee 74.10533%, rgba(0, 0, 0, 0) 74.10533%, rgba(0, 0, 0, 0) 77.684%, #eeeeee 77.684%, #eeeeee 87.05267%, rgba(0, 0, 0, 0) 87.05267%, rgba(0, 0, 0, 0) 90.63133%, #eeeeee 90.63133%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 9.36867%, rgba(0, 0, 0, 0) 9.36867%, rgba(0, 0, 0, 0) 12.94733%, #eeeeee 12.94733%, #eeeeee 22.316%, rgba(0, 0, 0, 0) 22.316%, rgba(0, 0, 0, 0) 25.89467%, #eeeeee 25.89467%, #eeeeee 35.26334%, rgba(0, 0, 0, 0) 35.26334%, rgba(0, 0, 0, 0) 38.842%, #eeeeee 38.842%, #eeeeee 48.21067%, rgba(0, 0, 0, 0) 48.21067%, rgba(0, 0, 0, 0) 51.78933%, #eeeeee 51.78933%, #eeeeee 61.158%, rgba(0, 0, 0, 0) 61.158%, rgba(0, 0, 0, 0) 64.73666%, #eeeeee 64.73666%, #eeeeee 74.10533%, rgba(0, 0, 0, 0) 74.10533%, rgba(0, 0, 0, 0) 77.684%, #eeeeee 77.684%, #eeeeee 87.05267%, rgba(0, 0, 0, 0) 87.05267%, rgba(0, 0, 0, 0) 90.63133%, #eeeeee 90.63133%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 9.36867%, rgba(0, 0, 0, 0) 9.36867%, rgba(0, 0, 0, 0) 12.94733%, #eeeeee 12.94733%, #eeeeee 22.316%, rgba(0, 0, 0, 0) 22.316%, rgba(0, 0, 0, 0) 25.89467%, #eeeeee 25.89467%, #eeeeee 35.26334%, rgba(0, 0, 0, 0) 35.26334%, rgba(0, 0, 0, 0) 38.842%, #eeeeee 38.842%, #eeeeee 48.21067%, rgba(0, 0, 0, 0) 48.21067%, rgba(0, 0, 0, 0) 51.78933%, #eeeeee 51.78933%, #eeeeee 61.158%, rgba(0, 0, 0, 0) 61.158%, rgba(0, 0, 0, 0) 64.73666%, #eeeeee 64.73666%, #eeeeee 74.10533%, rgba(0, 0, 0, 0) 74.10533%, rgba(0, 0, 0, 0) 77.684%, #eeeeee 77.684%, #eeeeee 87.05267%, rgba(0, 0, 0, 0) 87.05267%, rgba(0, 0, 0, 0) 90.63133%, #eeeeee 90.63133%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); } }
-@media screen and (min-width: 1024px) and (max-width: 1280px) { /* line 11, ../sass/libs/neat/grid/_visual-grid.scss */
-  body:before { background-image: deprecated-webkit-gradient(linear, left top, left bottom, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 6.17215%, rgba(0, 0, 0, 0) 6.17215%, rgba(0, 0, 0, 0) 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, rgba(0, 0, 0, 0) 14.70196%, rgba(0, 0, 0, 0) 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, rgba(0, 0, 0, 0) 23.23176%, rgba(0, 0, 0, 0) 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, rgba(0, 0, 0, 0) 31.76157%, rgba(0, 0, 0, 0) 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, rgba(0, 0, 0, 0) 40.29137%, rgba(0, 0, 0, 0) 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, rgba(0, 0, 0, 0) 48.82117%, rgba(0, 0, 0, 0) 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, rgba(0, 0, 0, 0) 57.35098%, rgba(0, 0, 0, 0) 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, rgba(0, 0, 0, 0) 65.88078%, rgba(0, 0, 0, 0) 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, rgba(0, 0, 0, 0) 74.41059%, rgba(0, 0, 0, 0) 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, rgba(0, 0, 0, 0) 82.94039%, rgba(0, 0, 0, 0) 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, rgba(0, 0, 0, 0) 91.4702%, rgba(0, 0, 0, 0) 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 6.17215%, rgba(0, 0, 0, 0) 6.17215%, rgba(0, 0, 0, 0) 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, rgba(0, 0, 0, 0) 14.70196%, rgba(0, 0, 0, 0) 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, rgba(0, 0, 0, 0) 23.23176%, rgba(0, 0, 0, 0) 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, rgba(0, 0, 0, 0) 31.76157%, rgba(0, 0, 0, 0) 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, rgba(0, 0, 0, 0) 40.29137%, rgba(0, 0, 0, 0) 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, rgba(0, 0, 0, 0) 48.82117%, rgba(0, 0, 0, 0) 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, rgba(0, 0, 0, 0) 57.35098%, rgba(0, 0, 0, 0) 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, rgba(0, 0, 0, 0) 65.88078%, rgba(0, 0, 0, 0) 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, rgba(0, 0, 0, 0) 74.41059%, rgba(0, 0, 0, 0) 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, rgba(0, 0, 0, 0) 82.94039%, rgba(0, 0, 0, 0) 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, rgba(0, 0, 0, 0) 91.4702%, rgba(0, 0, 0, 0) 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 6.17215%, rgba(0, 0, 0, 0) 6.17215%, rgba(0, 0, 0, 0) 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, rgba(0, 0, 0, 0) 14.70196%, rgba(0, 0, 0, 0) 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, rgba(0, 0, 0, 0) 23.23176%, rgba(0, 0, 0, 0) 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, rgba(0, 0, 0, 0) 31.76157%, rgba(0, 0, 0, 0) 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, rgba(0, 0, 0, 0) 40.29137%, rgba(0, 0, 0, 0) 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, rgba(0, 0, 0, 0) 48.82117%, rgba(0, 0, 0, 0) 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, rgba(0, 0, 0, 0) 57.35098%, rgba(0, 0, 0, 0) 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, rgba(0, 0, 0, 0) 65.88078%, rgba(0, 0, 0, 0) 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, rgba(0, 0, 0, 0) 74.41059%, rgba(0, 0, 0, 0) 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, rgba(0, 0, 0, 0) 82.94039%, rgba(0, 0, 0, 0) 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, rgba(0, 0, 0, 0) 91.4702%, rgba(0, 0, 0, 0) 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 6.17215%, rgba(0, 0, 0, 0) 6.17215%, rgba(0, 0, 0, 0) 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, rgba(0, 0, 0, 0) 14.70196%, rgba(0, 0, 0, 0) 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, rgba(0, 0, 0, 0) 23.23176%, rgba(0, 0, 0, 0) 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, rgba(0, 0, 0, 0) 31.76157%, rgba(0, 0, 0, 0) 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, rgba(0, 0, 0, 0) 40.29137%, rgba(0, 0, 0, 0) 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, rgba(0, 0, 0, 0) 48.82117%, rgba(0, 0, 0, 0) 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, rgba(0, 0, 0, 0) 57.35098%, rgba(0, 0, 0, 0) 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, rgba(0, 0, 0, 0) 65.88078%, rgba(0, 0, 0, 0) 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, rgba(0, 0, 0, 0) 74.41059%, rgba(0, 0, 0, 0) 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, rgba(0, 0, 0, 0) 82.94039%, rgba(0, 0, 0, 0) 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, rgba(0, 0, 0, 0) 91.4702%, rgba(0, 0, 0, 0) 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 6.17215%, rgba(0, 0, 0, 0) 6.17215%, rgba(0, 0, 0, 0) 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, rgba(0, 0, 0, 0) 14.70196%, rgba(0, 0, 0, 0) 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, rgba(0, 0, 0, 0) 23.23176%, rgba(0, 0, 0, 0) 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, rgba(0, 0, 0, 0) 31.76157%, rgba(0, 0, 0, 0) 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, rgba(0, 0, 0, 0) 40.29137%, rgba(0, 0, 0, 0) 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, rgba(0, 0, 0, 0) 48.82117%, rgba(0, 0, 0, 0) 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, rgba(0, 0, 0, 0) 57.35098%, rgba(0, 0, 0, 0) 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, rgba(0, 0, 0, 0) 65.88078%, rgba(0, 0, 0, 0) 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, rgba(0, 0, 0, 0) 74.41059%, rgba(0, 0, 0, 0) 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, rgba(0, 0, 0, 0) 82.94039%, rgba(0, 0, 0, 0) 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, rgba(0, 0, 0, 0) 91.4702%, rgba(0, 0, 0, 0) 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 6.17215%, rgba(0, 0, 0, 0) 6.17215%, rgba(0, 0, 0, 0) 8.5298%, #eeeeee 8.5298%, #eeeeee 14.70196%, rgba(0, 0, 0, 0) 14.70196%, rgba(0, 0, 0, 0) 17.05961%, #eeeeee 17.05961%, #eeeeee 23.23176%, rgba(0, 0, 0, 0) 23.23176%, rgba(0, 0, 0, 0) 25.58941%, #eeeeee 25.58941%, #eeeeee 31.76157%, rgba(0, 0, 0, 0) 31.76157%, rgba(0, 0, 0, 0) 34.11922%, #eeeeee 34.11922%, #eeeeee 40.29137%, rgba(0, 0, 0, 0) 40.29137%, rgba(0, 0, 0, 0) 42.64902%, #eeeeee 42.64902%, #eeeeee 48.82117%, rgba(0, 0, 0, 0) 48.82117%, rgba(0, 0, 0, 0) 51.17883%, #eeeeee 51.17883%, #eeeeee 57.35098%, rgba(0, 0, 0, 0) 57.35098%, rgba(0, 0, 0, 0) 59.70863%, #eeeeee 59.70863%, #eeeeee 65.88078%, rgba(0, 0, 0, 0) 65.88078%, rgba(0, 0, 0, 0) 68.23843%, #eeeeee 68.23843%, #eeeeee 74.41059%, rgba(0, 0, 0, 0) 74.41059%, rgba(0, 0, 0, 0) 76.76824%, #eeeeee 76.76824%, #eeeeee 82.94039%, rgba(0, 0, 0, 0) 82.94039%, rgba(0, 0, 0, 0) 85.29804%, #eeeeee 85.29804%, #eeeeee 91.4702%, rgba(0, 0, 0, 0) 91.4702%, rgba(0, 0, 0, 0) 93.82785%, #eeeeee 93.82785%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); } }
-@media screen and (min-width: 1281px) and (max-width: 2056px) { /* line 11, ../sass/libs/neat/grid/_visual-grid.scss */
-  body:before { background-image: deprecated-webkit-gradient(linear, left top, left bottom, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); background-image: linear-gradient(left, rgba(0, 0, 0, 0) 0, #eeeeee 0, #eeeeee 4.60199%, rgba(0, 0, 0, 0) 4.60199%, rgba(0, 0, 0, 0) 6.35987%, #eeeeee 6.35987%, #eeeeee 10.96186%, rgba(0, 0, 0, 0) 10.96186%, rgba(0, 0, 0, 0) 12.71973%, #eeeeee 12.71973%, #eeeeee 17.32172%, rgba(0, 0, 0, 0) 17.32172%, rgba(0, 0, 0, 0) 19.0796%, #eeeeee 19.0796%, #eeeeee 23.68159%, rgba(0, 0, 0, 0) 23.68159%, rgba(0, 0, 0, 0) 25.43947%, #eeeeee 25.43947%, #eeeeee 30.04146%, rgba(0, 0, 0, 0) 30.04146%, rgba(0, 0, 0, 0) 31.79934%, #eeeeee 31.79934%, #eeeeee 36.40133%, rgba(0, 0, 0, 0) 36.40133%, rgba(0, 0, 0, 0) 38.1592%, #eeeeee 38.1592%, #eeeeee 42.76119%, rgba(0, 0, 0, 0) 42.76119%, rgba(0, 0, 0, 0) 44.51907%, #eeeeee 44.51907%, #eeeeee 49.12106%, rgba(0, 0, 0, 0) 49.12106%, rgba(0, 0, 0, 0) 50.87894%, #eeeeee 50.87894%, #eeeeee 55.48093%, rgba(0, 0, 0, 0) 55.48093%, rgba(0, 0, 0, 0) 57.23881%, #eeeeee 57.23881%, #eeeeee 61.8408%, rgba(0, 0, 0, 0) 61.8408%, rgba(0, 0, 0, 0) 63.59867%, #eeeeee 63.59867%, #eeeeee 68.20066%, rgba(0, 0, 0, 0) 68.20066%, rgba(0, 0, 0, 0) 69.95854%, #eeeeee 69.95854%, #eeeeee 74.56053%, rgba(0, 0, 0, 0) 74.56053%, rgba(0, 0, 0, 0) 76.31841%, #eeeeee 76.31841%, #eeeeee 80.9204%, rgba(0, 0, 0, 0) 80.9204%, rgba(0, 0, 0, 0) 82.67828%, #eeeeee 82.67828%, #eeeeee 87.28027%, rgba(0, 0, 0, 0) 87.28027%, rgba(0, 0, 0, 0) 89.03814%, #eeeeee 89.03814%, #eeeeee 93.64013%, rgba(0, 0, 0, 0) 93.64013%, rgba(0, 0, 0, 0) 95.39801%, #eeeeee 95.39801%, #eeeeee 100.0%, rgba(0, 0, 0, 0) 100.0%); } }
-
-/* line 1, ../sass/libs/bitters/extends/_button.scss */
-button, input[type="submit"] { border: 1px solid #2459a6; border-radius: 3px; box-shadow: inset 0 1px 0 0 #89a8d5; color: white; display: inline-block; font-size: 11px; font-weight: bold; background-color: #477dca; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #477dca), color-stop(100%, #2760b2)); background-image: -webkit-linear-gradient(#477dca, #2760b2); background-image: linear-gradient(#477dca, #2760b2); padding: 7px 18px; text-decoration: none; text-shadow: 0 1px 0 #1b4f9a; background-clip: padding-box; font-size: 1em; }
-/* line 79, ../sass/libs/bourbon/addons/_button.scss */
-button:hover:not(:disabled), input[type="submit"]:hover:not(:disabled) { box-shadow: inset 0 1px 0 0 #628cc8; cursor: pointer; background-color: #3c71bb; background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #3c71bb), color-stop(100%, #255aa5)); background-image: -webkit-linear-gradient(#3c71bb, #255aa5); background-image: linear-gradient(#3c71bb, #255aa5); }
-/* line 95, ../sass/libs/bourbon/addons/_button.scss */
-button:active:not(:disabled), input[type="submit"]:active:not(:disabled) { border: 1px solid #2459a6; box-shadow: inset 0 0 8px 4px #235397, inset 0 0 8px 4px #235397, 0 1px 1px 0 #eeeeee; }
-/* line 38, ../sass/libs/bourbon/addons/_button.scss */
-button:disabled, input[type="submit"]:disabled { opacity: 0.5; cursor: not-allowed; }
-
-/* line 1, ../sass/libs/bitters/_typography.scss */
-body { color: #333333; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1em; -webkit-font-smoothing: antialiased; line-height: 1.5em; }
-
-/* line 9, ../sass/libs/bitters/_typography.scss */
-h1, h2, h3, h4, h5, h6 { text-rendering: optimizeLegibility; margin: 0; line-height: 1.25em; }
-
-/* line 15, ../sass/libs/bitters/_typography.scss */
-h1 { font-size: 2.25em; }
-
-/* line 19, ../sass/libs/bitters/_typography.scss */
-h2 { font-size: 2em; }
-
-/* line 23, ../sass/libs/bitters/_typography.scss */
-h3 { font-size: 1.75em; }
-
-/* line 27, ../sass/libs/bitters/_typography.scss */
-h4 { font-size: 1.5em; }
-
-/* line 31, ../sass/libs/bitters/_typography.scss */
-h5 { font-size: 1.25em; }
-
-/* line 35, ../sass/libs/bitters/_typography.scss */
-h6 { font-size: 1em; }
-
-/* line 39, ../sass/libs/bitters/_typography.scss */
-p { margin: 0 0 0.75em; }
-
-/* line 43, ../sass/libs/bitters/_typography.scss */
-a { color: #477dca; text-decoration: none; -webkit-transition: color 0.1s linear; -moz-transition: color 0.1s linear; transition: color 0.1s linear; }
-/* line 48, ../sass/libs/bitters/_typography.scss */
-a:hover { color: #2c5999; }
-/* line 52, ../sass/libs/bitters/_typography.scss */
-a:active, a:focus { color: #2c5999; outline: none; }
-
-/* line 58, ../sass/libs/bitters/_typography.scss */
-hr { border-bottom: 1px solid #dddddd; border-left: none; border-right: none; border-top: none; margin: 1.5em 0; }
-
-/* line 66, ../sass/libs/bitters/_typography.scss */
-img { margin: 0; max-width: 100%; }
-
-/* line 71, ../sass/libs/bitters/_typography.scss */
-abbr, acronym { border-bottom: 1px dotted #dddddd; cursor: help; }
-
-/* line 76, ../sass/libs/bitters/_typography.scss */
-address { display: block; margin: 0 0 0.75em; }
-
-/* line 81, ../sass/libs/bitters/_typography.scss */
-hgroup { margin-bottom: 0.75em; }
-
-/* line 85, ../sass/libs/bitters/_typography.scss */
-del { color: #595959; }
-
-/* line 89, ../sass/libs/bitters/_typography.scss */
-blockquote { border-left: 2px solid #dddddd; color: #595959; margin: 1.5em 0; padding-left: 0.75em; }
-
-/* line 96, ../sass/libs/bitters/_typography.scss */
-cite { color: #737373; font-style: italic; }
-/* line 100, ../sass/libs/bitters/_typography.scss */
-cite:before { content: '\2014 \00A0'; }
-
-/* line 10, ../sass/libs/bitters/_forms.scss */
-fieldset { background: #f7f7f7; border: 1px solid #dddddd; margin: 0 0 0.75em 0; padding: 1.5em; }
-
-/* line 19, ../sass/libs/bitters/_forms.scss */
-input, label, select { display: block; font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1em; }
-
-/* line 25, ../sass/libs/bitters/_forms.scss */
-label { font-weight: bold; margin-bottom: 0.375em; }
-/* line 29, ../sass/libs/bitters/_forms.scss */
-label.required:after { content: "*"; }
-/* line 33, ../sass/libs/bitters/_forms.scss */
-label abbr { display: none; }
-
-/* line 39, ../sass/libs/bitters/_forms.scss */
-textarea, input[type="email"], input[type="number"], input[type="password"], input[type="search"], input[type="tel"], input[type="text"], input[type="url"], input[type="color"], input[type="date"], input[type="datetime"], input[type="datetime-local"], input[type="month"], input[type="time"], input[type="week"] { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; -webkit-transition: border-color; -moz-transition: border-color; transition: border-color; background-color: white; border-radius: 0.1875em; border: 1px solid #dddddd; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06); font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1em; margin-bottom: 0.75em; padding: 0.5em 0.5em; width: 100%; }
-/* line 52, ../sass/libs/bitters/_forms.scss */
-textarea:hover, input[type="email"]:hover, input[type="number"]:hover, input[type="password"]:hover, input[type="search"]:hover, input[type="tel"]:hover, input[type="text"]:hover, input[type="url"]:hover, input[type="color"]:hover, input[type="date"]:hover, input[type="datetime"]:hover, input[type="datetime-local"]:hover, input[type="month"]:hover, input[type="time"]:hover, input[type="week"]:hover { border-color: #c4c4c4; }
-/* line 56, ../sass/libs/bitters/_forms.scss */
-textarea:focus, input[type="email"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="search"]:focus, input[type="tel"]:focus, input[type="text"]:focus, input[type="url"]:focus, input[type="color"]:focus, input[type="date"]:focus, input[type="datetime"]:focus, input[type="datetime-local"]:focus, input[type="month"]:focus, input[type="time"]:focus, input[type="week"]:focus { border-color: #477dca; box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06), 0 0 5px rgba(55, 112, 192, 0.7); outline: none; }
-
-/* line 63, ../sass/libs/bitters/_forms.scss */
-input[type="search"] { -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; }
-
-/* line 67, ../sass/libs/bitters/_forms.scss */
-input[type="checkbox"], input[type="radio"] { display: inline; margin-right: 0.375em; }
-
-/* line 72, ../sass/libs/bitters/_forms.scss */
-select { width: auto; margin-bottom: 1.5em; }
-
-/* line 78, ../sass/libs/bitters/_forms.scss */
-button, input[type="submit"] { -webkit-appearance: none; -moz-appearance: none; -ms-appearance: none; -o-appearance: none; appearance: none; cursor: pointer; user-select: none; vertical-align: middle; white-space: nowrap; }
-
-/* line 1, ../sass/libs/bitters/_tables.scss */
-table { margin: 0.75em 0; width: 100%; }
-
-/* line 6, ../sass/libs/bitters/_tables.scss */
-th { border-bottom: 1px solid #b7b7b7; font-weight: bold; padding: 0.75em 0; text-align: left; }
-
-/* line 13, ../sass/libs/bitters/_tables.scss */
-td { border-bottom: 1px solid #dddddd; padding: 0.75em 0; }
-
-/* line 18, ../sass/libs/bitters/_tables.scss */
-tr, td, th { vertical-align: middle; }
-
-/* line 1, ../sass/libs/bitters/_lists.scss */
-ul, ol { margin: 0; padding: 0; list-style-type: none; }
-/* line 19, ../sass/libs/bitters/_lists.scss */
-dl { line-height: 1.5em; margin-bottom: 0.75em; }
-/* line 23, ../sass/libs/bitters/_lists.scss */
-dl dt { font-weight: bold; margin-top: 0.75em; }
-/* line 28, ../sass/libs/bitters/_lists.scss */
-dl dd { margin: 0; }
-
-/* Success, error & notice boxes for messages and errors. */
-/* line 2, ../sass/libs/bitters/_flashes.scss */
-.error, #flash_failure, .notice, #flash_notice, .success, #flash_success { margin-bottom: 0.75em; padding: 0.75em; font-weight: bold; }
-
-/* line 8, ../sass/libs/bitters/_flashes.scss */
-.error, #flash_failure { background: #fbe3e4; color: #96151b; }
-/* line 13, ../sass/libs/bitters/_flashes.scss */
-.error a, #flash_failure a { color: #6a0f13; }
-/* line 16, ../sass/libs/bitters/_flashes.scss */
-.error a:hover, #flash_failure a:hover { color: #110203; }
-
-/* line 22, ../sass/libs/bitters/_flashes.scss */
-.notice, #flash_notice { background: #fff6bf; color: #8c7800; }
-/* line 27, ../sass/libs/bitters/_flashes.scss */
-.notice a, #flash_notice a { color: #594c00; }
-/* line 30, ../sass/libs/bitters/_flashes.scss */
-.notice a:hover, #flash_notice a:hover { color: black; }
-
-/* line 37, ../sass/libs/bitters/_flashes.scss */
-.success, #flash_success { background: #e6efc2; color: #56651a; }
-/* line 42, ../sass/libs/bitters/_flashes.scss */
-.success a, #flash_success a { color: #333c10; }
-/* line 45, ../sass/libs/bitters/_flashes.scss */
-.success a:hover, #flash_success a:hover { color: black; }
-
 /* line 55, ../sass/libs/_normalize.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary { display: block; }
 
 /* line 63, ../sass/libs/_normalize.scss */
-audio, canvas, video { display: inline-block; *display: inline; *zoom: 1; }
+audio, canvas, video { display: inline-block; }
 
 /* line 74, ../sass/libs/_normalize.scss */
 audio:not([controls]) { display: none; height: 0; }
@@ -172,7 +14,7 @@ audio:not([controls]) { display: none; height: 0; }
 [hidden] { display: none; }
 
 /* line 94, ../sass/libs/_normalize.scss */
-html { font-size: 100%; background: white; color: black; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+html { background: white; color: black; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
 
 /* line 110, ../sass/libs/_normalize.scss */
 html, button, input, select, textarea { font-family: sans-serif; }
@@ -209,29 +51,20 @@ abbr[title] { border-bottom: 1px dotted; }
 /* line 192, ../sass/libs/_normalize.scss */
 b, strong { font-weight: bold; }
 
-/* line 197, ../sass/libs/_normalize.scss */
-blockquote { margin: 1em 40px; }
-
 /* line 204, ../sass/libs/_normalize.scss */
 dfn { font-style: italic; }
 
 /* line 210, ../sass/libs/_normalize.scss */
 mark { background: #ff0; color: #000; }
 
-/* line 218, ../sass/libs/_normalize.scss */
-p, pre { margin: 1em 0; }
-
 /* line 229, ../sass/libs/_normalize.scss */
-code, kbd, pre, samp { font-family: monospace, serif; _font-family: 'courier new', monospace; font-size: 1em; }
+code, kbd, pre, samp { font-family: monospace, serif; font-size: 1em; }
 
 /* line 239, ../sass/libs/_normalize.scss */
 pre { white-space: pre; white-space: pre-wrap; word-wrap: break-word; }
 
 /* line 247, ../sass/libs/_normalize.scss */
 q { quotes: "\201C" "\201D" "\2018" "\2019"; }
-
-/* line 256, ../sass/libs/_normalize.scss */
-q { quotes: none; }
 
 /* line 263, ../sass/libs/_normalize.scss */
 q:before, q:after { content: ''; content: none; }
@@ -248,20 +81,8 @@ sup { top: -0.5em; }
 /* line 289, ../sass/libs/_normalize.scss */
 sub { bottom: -0.25em; }
 
-/* line 302, ../sass/libs/_normalize.scss */
-dl, menu, ol, ul { margin: 1em 0; }
-
-/* line 308, ../sass/libs/_normalize.scss */
-dd { margin: 0 0 0 40px; }
-
-/* line 317, ../sass/libs/_normalize.scss */
-menu, ol, ul { padding: 0 0 0 40px; }
-
-/* line 326, ../sass/libs/_normalize.scss */
-nav ul, nav ol { list-style-image: none; }
-
 /* line 341, ../sass/libs/_normalize.scss */
-img { border: 0; -ms-interpolation-mode: bicubic; }
+img { border: 0; }
 
 /* line 350, ../sass/libs/_normalize.scss */
 svg:not(:root) { overflow: hidden; }
@@ -269,17 +90,14 @@ svg:not(:root) { overflow: hidden; }
 /* line 360, ../sass/libs/_normalize.scss */
 figure { margin: 0; }
 
-/* line 370, ../sass/libs/_normalize.scss */
-form { margin: 0; }
-
 /* line 377, ../sass/libs/_normalize.scss */
 fieldset { border: 1px solid #c0c0c0; margin: 0 2px; padding: 0.35em 0.625em 0.75em; }
 
 /* line 388, ../sass/libs/_normalize.scss */
-legend { border: 0; padding: 0; white-space: normal; *margin-left: -7px; }
+legend { border: 0; padding: 0; white-space: normal; }
 
 /* line 405, ../sass/libs/_normalize.scss */
-button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; }
+button, input, select, textarea { font-family: inherit; font-size: 100%; margin: 0; vertical-align: baseline; }
 
 /* line 418, ../sass/libs/_normalize.scss */
 button, input { line-height: normal; }
@@ -288,13 +106,13 @@ button, input { line-height: normal; }
 button, select { text-transform: none; }
 
 /* line 443, ../sass/libs/_normalize.scss */
-button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; *overflow: visible; }
+button, html input[type="button"], input[type="reset"], input[type="submit"] { -webkit-appearance: button; cursor: pointer; }
 
 /* line 454, ../sass/libs/_normalize.scss */
 button[disabled], input[disabled] { cursor: default; }
 
 /* line 464, ../sass/libs/_normalize.scss */
-input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; *height: 13px; *width: 13px; }
+input[type="checkbox"], input[type="radio"] { box-sizing: border-box; padding: 0; }
 
 /* line 476, ../sass/libs/_normalize.scss */
 input[type="search"] { -webkit-appearance: textfield; -moz-box-sizing: content-box; -webkit-box-sizing: content-box; box-sizing: content-box; }
@@ -311,35 +129,33 @@ textarea { overflow: auto; vertical-align: top; }
 /* line 515, ../sass/libs/_normalize.scss */
 table { border-collapse: collapse; border-spacing: 0; }
 
-/* line 3, ../sass/partials/_base.scss */
+/* line 1, ../sass/partials/_base.scss */
 * { position: relative; margin: 0; padding: 0; }
 
-/* line 13, ../sass/partials/_base.scss */
-body { font-size: 1em; line-height: 1.5em; }
+/* line 7, ../sass/partials/_base.scss */
+html { overflow-x: hidden; font-size: 62.5%; }
 
-/* line 18, ../sass/partials/_base.scss */
-.wrapper { *zoom: 1; max-width: 123.75em; margin-left: auto; margin-right: auto; margin-left: 0; }
+/* line 12, ../sass/partials/_base.scss */
+body { font-size: 1.6rem; }
+
+/* line 16, ../sass/partials/_base.scss */
+a { text-decoration: none; -webkit-transition: color 2s ease-in; -moz-transition: color 2s ease-in; transition: color 2s ease-in; }
+
+/* line 25, ../sass/partials/_base.scss */
+::selection { background: aqua; }
+
+/* line 29, ../sass/partials/_base.scss */
+::moz-selection { background: aqua; }
+
+/* line 33, ../sass/partials/_base.scss */
+.oldies { background: #6d6d6d; color: white; text-align: center; padding: 1rem 0; }
+
+/* line 3, ../sass/partials/_layouts.scss */
+.wrapper { *zoom: 1; max-width: 71.25em; margin-left: auto; margin-right: auto; }
 /* line 18, ../sass/libs/bourbon/addons/_clearfix.scss */
 .wrapper:before, .wrapper:after { content: " "; display: table; }
 /* line 23, ../sass/libs/bourbon/addons/_clearfix.scss */
 .wrapper:after { clear: both; }
 
-/* line 23, ../sass/partials/_base.scss */
-.grid { padding: 1em; height: 25em; display: block; float: left; margin-right: 1.75788%; width: 100%; background: red; }
-/* line 54, ../sass/libs/neat/grid/_span-columns.scss */
-.grid:last-child { margin-right: 0; }
-@media screen and (min-width: 1024px) and (max-width: 1280px) { /* line 23, ../sass/partials/_base.scss */
-  .grid { display: block; float: left; margin-right: 2.35765%; width: 100%; background: orange; }
-  /* line 54, ../sass/libs/neat/grid/_span-columns.scss */
-  .grid:last-child { margin-right: 0; } }
-@media screen and (min-width: 481px) and (max-width: 1023px) { /* line 23, ../sass/partials/_base.scss */
-  .grid { display: block; float: left; margin-right: 3.57866%; width: 100%; background: yellow; }
-  /* line 54, ../sass/libs/neat/grid/_span-columns.scss */
-  .grid:last-child { margin-right: 0; } }
-@media screen and (min-width: 320px) and (max-width: 480px) { /* line 23, ../sass/partials/_base.scss */
-  .grid { display: block; float: left; margin-right: 7.42297%; width: 100%; background: green; }
-  /* line 54, ../sass/libs/neat/grid/_span-columns.scss */
-  .grid:last-child { margin-right: 0; } }
-
 /* line 1, ../sass/elements/_header.scss */
-hgroup { padding: 1em; }
+hgroup { margin: 1em 0; }

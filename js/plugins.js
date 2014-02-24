@@ -22,3 +22,16 @@
 }());
 
 // Place any jQuery/helper plugins in here.
+
+// load up load reload for dev
+var loadReload = function() {
+
+    var lr = document.createElement("script");
+        lr.type = "text/javascript";
+        lr.src = "//localhost:35729/livereload.js";
+
+    if ($('#globalFooter')) {
+        $('#globalFooter').append(lr);
+        console.log('livereload is locked and loaded!!');
+    }
+}

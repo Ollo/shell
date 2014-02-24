@@ -1,9 +1,8 @@
 #shell
 
-a basic shell for static site builds using: 
+a basic front end starting point using: 
 
 + html5boilerplate <http://html5boilerplate.com>
-+ compass <http://compass-style.org>
 + bourbon <http://bourbon.io>
 + bourbon neat <http://neat.bourbon.io>
 + bourbon bitters <http://bitters.bourbon.io>

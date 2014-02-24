@@ -4,21 +4,17 @@ module.exports = function (grunt) {
     grunt.initConfig({
     pkg: grunt.file.readJSON('package.json'),
     
-    // Compass task: https://npmjs.org/package/grunt-contrib-compass
+    // Compass 
     compass: {
       dist: {
         options: {
-          // use default Compass config
+          // use my Compass config in root
           config: 'config.rb'
         }
       }
     },
  
-    // Watch task: https://npmjs.org/package/grunt-contrib-watch
-    // Includes LiveReload whenever specified files change
-    // 
-    // Using browser extension:
-    // http://feedback.livereload.com/knowledgebase/articles/86242-how-do-i-install-and-use-the-browser-extensions-
+    // main watch task
     watch: {
       css: {
         // if Sass files change, run the compass task and livereload
@@ -50,13 +46,10 @@ module.exports = function (grunt) {
       },
     },
   });
- 
-  // Load the plugin(s)
-  //grunt.loadNpmTasks('grunt-concurrent');
+  // load
   grunt.loadNpmTasks('grunt-contrib-compass');
   grunt.loadNpmTasks('grunt-contrib-watch');
  
-  // Default task(s).
-  // grunt.registerTask('default', ['concurrent:target1']);
+  // regiser 
   grunt.registerTask('default', ['watch']);
 };

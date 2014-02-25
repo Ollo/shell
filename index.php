@@ -20,19 +20,11 @@
 
         <div class="wrapper">
             <hgroup id="globalHeader" class="site_header">
-                <h1 id="logo"> Shell <i class="fa fa-terminal"></i></h1>
-                <h3 id="tagline">a front end workflow toolkit</h3>
+                <h1 id="logo"></h1>
+                <h3 id="tagline"></h3>
             </hgroup>
             
             <main class="content">
-                <article>
-                    <header>
-                        <h3>About: </h3>
-                    </header>
-                    <blockquote>
-                        <a href="/">Shell</a> is a fun little collection of libraries and workflows I use on a daily basis as a front end developer.
-                    </blockquote>
-                </article>
             </main>
 
             <footer id="globalFooter">

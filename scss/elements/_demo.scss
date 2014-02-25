@@ -29,6 +29,10 @@ h1, h2, h3 {
 	margin: 1.5rem 0 0;
 }
 
+.content {
+	@include outer-container;
+}
+
 .fork {
 	display: block;
 }

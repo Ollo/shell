@@ -1,0 +1,30 @@
+@import url(http://fonts.googleapis.com/css?family=Esteban);
+
+h1, h2, h3 {
+	font-family: 'Esteban', serif;
+}
+
+.site_header {
+	@include outer-container;
+	margin: 1rem 0;
+	padding: 1rem  0;
+	border-bottom: 1px solid lighten($charcoal, 70%);
+}
+
+#logo {
+	@include span-columns( 5 );
+	color: $orange;
+	font-weight: 100;
+	font-size: 4rem;
+	margin: 0;
+}
+
+#tagline {
+	@include span-columns( 7 );
+	@include omega;
+	color: $charcoal;
+	text-align: right;
+	font-style: italic;
+	font-weight: 300;
+	margin: 1.5rem 0 0;
+}

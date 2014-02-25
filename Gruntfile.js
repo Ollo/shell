@@ -1,55 +1,126 @@
 // Configuring Grunt tasks:
 // http://gruntjs.com/configuring-tasks
+
 module.exports = function (grunt) {
-    grunt.initConfig({
-    pkg: grunt.file.readJSON('package.json'),
     
-    // Compass 
-    compass: {
-      dist: {
-        options: {
-          // use my Compass config in root
-          config: 'config.rb'
+    grunt.initConfig({
+      pkg: grunt.file.readJSON('package.json'),
+      
+      // Tasks
+      php: {
+        dev: {
+          options: {
+            hostname: '*.dev',
+            port: 80
+          },
+        },
+      },
+
+      // Sass
+      // compass version
+      compass: {
+        dist: {
+          options: {
+            config: 'config.rb' // this uses compass config if thats your style
+          }
         }
-      }
-    },
- 
-    // main watch task
-    watch: {
-      css: {
-        // if Sass files change, run the compass task and livereload
-        files: [
-          '**/*.scss',
-        ],
-        tasks: ['compass'],
-        options: {
-          livereload: true,
+      },
+      
+      // grunt-contrib-sass
+      // requires you to have Ruby and Sass
+      // sass: {                            
+      //   dist: {                            
+      //     options: {                       
+      //       style: 'compressed',
+      //     },
+      //     files: { // Dictionary of files
+      //       'css/main.css': 'scss/*.scss', // 'destination': 'source'
+      //       // 'css/additional.css': 'additional.scss' // if needed
+      //     },
+      //   },
+      // },
+
+      // grunt sass
+      // useses node-sass for quicker compile if only using .scss
+      sass: { 
+        dist: { 
+          options: {
+            outputStyle: "compact",
+            sourceComments: "map",
+          },
+          files: {
+            'css/main.css' : 'scss/main.scss',  // 'destination': 'source'
+          },
         },
       },
-      scripts: {
-        // if js files change, livereload only
-        files: [
-          'js/*.js',
-        ],
-        options: {
-          livereload: true,
+
+      watch: {
+        
+        html: {
+          files: [
+            '*.html',
+          ],
+          options: {
+            livereload: true,
+          },
+        },
+        
+        php: {
+          files: [
+            '*.php',
+          ],
+          options: {
+            livereload: true,
+          },
+        },
+
+        sass: {
+          files: [
+            '**/*.scss',
+          ],
+          
+          //tasks: ['compass'],
+          tasks: ['sass'],
+          
+        },
+
+        css: {
+          files: [
+            'css/*.css',
+          ],
+
+          options: {
+            livereload: true, // reload the css not the sass changes
+          },
+        },
+        
+        scripts: {
+          files: [
+            'js/src/*.js',
+          ],
+          options: {
+            livereload: true,
+          },
+        },
+
+        images: {
+          files: [
+            'images/{,**/}*.{png,jpg,jpeg,gif,webp,svg}'
+          ],
+          options: {
+            livereload: true,
+          },
         },
       },
-      images: {
-        // if images change, livereload only
-        files: [
-          'images/{,**/}*.{png,jpg,jpeg,gif,webp,svg}'
-        ],
-        options: {
-          livereload: true,
-        },
-      },
-    },
   });
-  // load
-  grunt.loadNpmTasks('grunt-contrib-compass');
+
+
+  grunt.loadNpmTasks('grunt-php');
+  //grunt.loadNpmTasks('grunt-contrib-compass');
+  //grunt.loadNpmTasks('grunt-contrib-sass');
+  grunt.loadNpmTasks('grunt-sass');
+
   grunt.loadNpmTasks('grunt-contrib-watch');
  
-  // regiser 
-  grunt.registerTask('default', ['watch']);
+  grunt.registerTask('default', ['watch', 'php', 'sass']);
 };

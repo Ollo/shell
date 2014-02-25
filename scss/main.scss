@@ -3,10 +3,12 @@
 @import "partials/grid";  // custom grid params have to go here to override neat
 @import "libs/neat/neat"; 
 @import "libs/normalize"; 
+@import "libs/fa/font-awesome";
 
 // partials
 // @import "libs/animate"; // big lib add if needed
-@import "partials/colors"; 
+@import "partials/colors";
+@import "partials/extends";  
 @import "partials/mixins"; 
 @import "partials/base";
 @import "partials/typography";
@@ -17,3 +19,5 @@
 @import "elements/sidebar";
 @import "elements/footer";
 
+// demo styles feel free to delete this along with the index.php content
+@import "elements/demo";

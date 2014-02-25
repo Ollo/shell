@@ -11,23 +11,32 @@ html {
 
 body {
 	font-size: 1.6rem;
+	line-height: 2.4rem;
+	color: $charcoal;
 }
 
 a {
 	text-decoration: none;
 	@include transition(color 2s ease-in);
+	color: $orange;
 	
 	&:hover {
-
+		color: darken($orange, 5%);
 	}
 }
 
 ::selection {
-	background: aqua;
+	background: lighten($orange, 5%);
+	opacity: 0.8;
+	color: $white;
+	text-shadow: 0 0 1px $charcoal;
 }
 
 ::moz-selection {
-	background: aqua;
+	background: lighten($orange, 5%);
+	opacity: 0.8;
+	color: $white;
+	text-shadow: 0 0 1px $charcoal;
 }
 
 .oldies {

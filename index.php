@@ -19,13 +19,18 @@
         <![endif]-->
 
         <div class="wrapper">
+            
+            <!-- Sample content delete and start building -->
+            
             <hgroup id="globalHeader" class="site_header">
-                <h1 id="logo">Delete Me</h1>
-                <h3 id="tagline"></h3>
+                <h1 id="logo">Shell Demo Content</h1>
             </hgroup>
             
             <main class="content">
+                <p>delete this content and start your php project from here.</p>
             </main>
+
+            <!---------------------------------------------->
 
             <footer id="globalFooter">
             </footer>

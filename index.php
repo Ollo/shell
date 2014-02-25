@@ -20,7 +20,7 @@
 
         <div class="wrapper">
             <hgroup id="globalHeader" class="site_header">
-                <h1 id="logo"></h1>
+                <h1 id="logo">Delete Me</h1>
                 <h3 id="tagline"></h3>
             </hgroup>
             

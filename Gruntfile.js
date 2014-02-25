@@ -7,17 +7,8 @@ module.exports = function (grunt) {
       pkg: grunt.file.readJSON('package.json'),
       
       // Tasks
-      php: {
-        dev: {
-          options: {
-            hostname: '*.dev',
-            port: 80
-          },
-        },
-      },
-
-      // Sass
-      // compass version
+      
+      // compass 
       compass: {
         dist: {
           options: {
@@ -27,7 +18,7 @@ module.exports = function (grunt) {
       },
       
       // grunt-contrib-sass
-      // requires you to have Ruby and Sass
+      // requires you to have Ruby and Sass but is more stable
       // sass: {                            
       //   dist: {                            
       //     options: {                       
@@ -81,7 +72,6 @@ module.exports = function (grunt) {
           
           //tasks: ['compass'],
           tasks: ['sass'],
-          
         },
 
         css: {
@@ -114,13 +104,12 @@ module.exports = function (grunt) {
       },
   });
 
-
-  grunt.loadNpmTasks('grunt-php');
   //grunt.loadNpmTasks('grunt-contrib-compass');
   //grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-sass');
 
   grunt.loadNpmTasks('grunt-contrib-watch');
- 
+  grunt.loadNpmTasks('grunt-php');
+
   grunt.registerTask('default', ['watch', 'php', 'sass']);
 };

@@ -2,13 +2,13 @@
 // http://gruntjs.com/configuring-tasks
 
 module.exports = function (grunt) {
-    
+
     grunt.initConfig({
       pkg: grunt.file.readJSON('package.json'),
-      
+
       // Tasks
-      
-      // compass 
+
+      // compass
       compass: {
         dist: {
           options: {
@@ -16,37 +16,42 @@ module.exports = function (grunt) {
           }
         }
       },
-      
+
       // grunt-contrib-sass
       // requires you to have Ruby and Sass but is more stable
-      // sass: {                            
-      //   dist: {                            
-      //     options: {                       
-      //       style: 'compressed',
-      //     },
-      //     files: { // Dictionary of files
-      //       'css/main.css': 'scss/*.scss', // 'destination': 'source'
-      //       // 'css/additional.css': 'additional.scss' // if needed
-      //     },
-      //   },
-      // },
-
-      // grunt sass
-      // useses node-sass for quicker compile if only using .scss
-      sass: { 
-        dist: { 
+      sass: {
+        dist: {
           options: {
-            outputStyle: "compact",
-            sourceComments: "map",
+            style: 'compressed',
+            loadPath: 'scss/*.scss',
+            sourcemap: true,
+            quiet: true,
           },
-          files: {
-            'css/main.css' : 'scss/main.scss',  // 'destination': 'source'
+          files: { // Dictionary of files
+            'css/main.css': 'scss/*.scss', // 'destination': 'source'
+            // 'css/additional.css': 'additional.scss' // if needed
           },
         },
       },
 
+      // grunt sass
+      // useses bleeding edge node-sass for quicker compile
+      // - only using .scss
+      // - not fully stable yet
+      // sass: {
+      //   dist: {
+      //     options: {
+      //       outputStyle: "compact",
+      //       sourceComments: "map",
+      //     },
+      //     files: {
+      //       'css/main.css' : 'scss/main.scss',  // 'destination': 'source'
+      //     },
+      //   },
+      // },
+
       watch: {
-        
+
         html: {
           files: [
             '*.html',
@@ -55,7 +60,7 @@ module.exports = function (grunt) {
             livereload: true,
           },
         },
-        
+
         php: {
           files: [
             '*.php',
@@ -69,7 +74,7 @@ module.exports = function (grunt) {
           files: [
             '**/*.scss',
           ],
-          
+
           //tasks: ['compass'],
           tasks: ['sass'],
         },
@@ -83,7 +88,7 @@ module.exports = function (grunt) {
             livereload: true, // reload the css not the sass changes
           },
         },
-        
+
         scripts: {
           files: [
             'js/src/*.js',
@@ -105,8 +110,8 @@ module.exports = function (grunt) {
   });
 
   //grunt.loadNpmTasks('grunt-contrib-compass');
-  //grunt.loadNpmTasks('grunt-contrib-sass');
-  grunt.loadNpmTasks('grunt-sass');
+  //grunt.loadNpmTasks('grunt-sass');
+  grunt.loadNpmTasks('grunt-contrib-sass');
 
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-php');

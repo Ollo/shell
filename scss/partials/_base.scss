@@ -19,7 +19,7 @@ a {
 	text-decoration: none;
 	@include transition(color 2s ease-in);
 	color: $orange;
-	
+
 	&:hover {
 		color: darken($orange, 5%);
 	}
@@ -44,4 +44,15 @@ a {
 	color: $white;
 	text-align: center;
 	padding: 1rem 0;
+}
+
+code {
+	display: block;
+	padding: 2rem;
+	background: lighten($charcoal, 20%);
+	border: 2px solid $charcoal;
+
+	p {
+		color: $white;
+	}
 }

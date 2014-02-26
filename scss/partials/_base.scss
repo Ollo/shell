@@ -49,10 +49,12 @@ a {
 code {
 	display: block;
 	padding: 2rem;
-	background: lighten($charcoal, 20%);
+	background: lighten($charcoal, 10%);
 	border: 2px solid $charcoal;
 
 	p {
 		color: $white;
+		font-weight: 400;
+		-webkit-font-smoothing: antialiased;
 	}
 }

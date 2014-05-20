@@ -1,0 +1,24 @@
+{
+  "name": "shell",
+  "version": "0.0.2",
+  "homepage": "https://github.com/Ollo/shell",
+  "authors": [
+    "Ollo <joshua@ollomedia.com>"
+  ],
+  "description": "An opinionated frontend framework for web applications",
+  "main": "css/main.css",
+  "keywords": [
+    "SASS",
+    "HTML5",
+    "Bourbon",
+    "Neat"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

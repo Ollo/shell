@@ -1,9 +1,11 @@
 // frameworks
-@import "libs/bourbon/bourbon"; 
+@import "bower_components/bourbon/dist/bourbon"; 
 @import "partials/grid";  // custom grid params have to go here to override neat
-@import "libs/neat/neat"; 
-@import "libs/normalize"; 
-@import "libs/fa/font-awesome";
+@import "bower_components/neat/app/assets/stylesheets/neat"; 
+@import "../bower_components/normalize-css/normalize.css"; 
+
+$fa-font-path: "../bower_components/components-font-awesome/fonts"; // set it to use bowers version
+@import "bower_components/components-font-awesome/scss/font-awesome";
 
 // partials
 // @import "libs/animate"; // big lib add if needed

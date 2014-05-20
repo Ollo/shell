@@ -8,15 +8,6 @@ module.exports = function (grunt) {
 
       // Tasks
 
-      // compass
-      compass: {
-        dist: {
-          options: {
-            config: 'config.rb' // this uses compass config if thats your style
-          }
-        }
-      },
-
       // grunt-contrib-sass
       // requires you to have Ruby and Sass but is more stable
       sass: {
@@ -33,22 +24,6 @@ module.exports = function (grunt) {
           },
         },
       },
-
-      // grunt sass
-      // useses bleeding edge node-sass for quicker compile
-      // - only using .scss
-      // - not fully stable yet
-      // sass: {
-      //   dist: {
-      //     options: {
-      //       outputStyle: "compact",
-      //       sourceComments: "map",
-      //     },
-      //     files: {
-      //       'css/main.css' : 'scss/main.scss',  // 'destination': 'source'
-      //     },
-      //   },
-      // },
 
       watch: {
 
@@ -109,10 +84,7 @@ module.exports = function (grunt) {
       },
   });
 
-  //grunt.loadNpmTasks('grunt-contrib-compass');
-  //grunt.loadNpmTasks('grunt-sass');
   grunt.loadNpmTasks('grunt-contrib-sass');
-
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-php');
 

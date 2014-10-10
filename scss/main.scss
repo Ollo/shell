@@ -1,8 +1,8 @@
 // frameworks
-@import "bower_components/bourbon/dist/bourbon"; 
+@import "../bower_components/bourbon/dist/bourbon";
 @import "partials/grid";  // custom grid params have to go here to override neat
-@import "bower_components/neat/app/assets/stylesheets/neat"; 
-@import "../bower_components/normalize-css/normalize.css"; 
+@import "../bower_components/neat/app/assets/stylesheets/neat";
+@import "../bower_components/normalize-css/normalize.css";
 
 $fa-font-path: "../bower_components/components-font-awesome/fonts"; // set it to use bowers version
 @import "bower_components/components-font-awesome/scss/font-awesome";
@@ -10,8 +10,8 @@ $fa-font-path: "../bower_components/components-font-awesome/fonts"; // set it to
 // partials
 // @import "libs/animate"; // big lib add if needed
 @import "partials/colors";
-@import "partials/extends";  
-@import "partials/mixins"; 
+@import "partials/extends";
+@import "partials/mixins";
 @import "partials/base";
 @import "partials/typography";
 @import "partials/layouts";

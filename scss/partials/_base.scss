@@ -25,6 +25,10 @@ a {
 	}
 }
 
+p {
+	margin-bottom: 1.6rem;
+}
+
 ::selection {
 	background: lighten($orange, 5%);
 	opacity: 0.8;

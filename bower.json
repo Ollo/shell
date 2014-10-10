@@ -20,5 +20,11 @@
     "bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "bourbon": "~4.0.2",
+    "neat": "~1.6.0",
+    "components-font-awesome": "~4.2.0",
+    "normalize-css": "~3.0.2"
+  }
 }

@@ -25,20 +25,21 @@ module.exports = function (grunt) {
         },
       },
 
+      connect: {
+        server: {
+          options: {
+            port: 9000,
+            livereload: true,
+            open: true,
+          }
+        }
+      },
+
       watch: {
 
         html: {
           files: [
             '*.html',
-          ],
-          options: {
-            livereload: true,
-          },
-        },
-
-        php: {
-          files: [
-            '*.php',
           ],
           options: {
             livereload: true,
@@ -86,7 +87,7 @@ module.exports = function (grunt) {
 
   grunt.loadNpmTasks('grunt-contrib-sass');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-php');
+  grunt.loadNpmTasks('grunt-contrib-connect');
 
-  grunt.registerTask('default', ['watch', 'php', 'sass']);
+  grunt.registerTask('default', ['connect', 'watch', 'sass']);
 };

@@ -1,0 +1,21 @@
+// styles
+@import "partials/colors";
+@import "partials/typography";
+@import "partials/responsive";
+@import "partials/helpers";
+@import "partials/base";
+
+
+@import "components/header";
+@import "components/sidebar";
+@import "components/footer";
+
+
+// feel free to nuke this
+.wrapper {
+  margin-top: 2rem;
+  padding: 2rem;
+  max-width: 114rem;
+  margin: 2rem auto;
+  border: 2px dashed lighten($charcoal, 60%);
+}

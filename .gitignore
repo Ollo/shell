@@ -4,6 +4,4 @@
 
 .sass-cache
 node_modules
-bower_components
-css/main.css
-css/main.css.map
+assets/css/*

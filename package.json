@@ -1,10 +1,27 @@
 {
   "name": "shell",
-  "description": "a node / grunt powered boiler for front end",
-  "version": "1.0.0",
+  "description": "a starting point for front end projects",
+  "version": "0.0.2",
+  "author":  "<joshua@ollomedia.com> Joshua Ray",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ollo/shell.git"
+  },
+  "scripts": {
+    "start": "nodemon server.js",
+    "postinstall": "gulp sass"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.15.0",
+    "express": "^4.13.4"
+  },
   "devDependencies": {
-    "grunt": "~0.4.1",
-    "grunt-contrib-watch": "~0.5.1",
-    "grunt-contrib-sass": "~0.7.2"
+    "gulp": "^3.9.1",
+    "gulp-livereload": "^3.8.1",
+    "gulp-sass": "^2.2.0",
+    "gulp-sourcemaps": "^1.6.0",
+    "gulp-watch": "^4.3.5",
+    "nodemon": "^1.9.1"
   }
 }

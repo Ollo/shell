@@ -11,17 +11,15 @@ html {
 
 body {
 	font-size: 1.6rem;
-	line-height: 2.4rem;
+	line-height: 3rem;
 	color: $charcoal;
 }
 
 a {
 	text-decoration: none;
-	@include transition(color 2s ease-in);
-	color: $orange;
 
 	&:hover {
-		color: darken($orange, 5%);
+
 	}
 }
 
@@ -30,24 +28,10 @@ p {
 }
 
 ::selection {
-	background: lighten($orange, 5%);
+	background: lighten($orange, 25%);
 	opacity: 0.8;
 	color: $white;
 	text-shadow: 0 0 1px $charcoal;
-}
-
-::moz-selection {
-	background: lighten($orange, 5%);
-	opacity: 0.8;
-	color: $white;
-	text-shadow: 0 0 1px $charcoal;
-}
-
-.oldies {
-	background: lighten($charcoal, 20%);
-	color: $white;
-	text-align: center;
-	padding: 1rem 0;
 }
 
 code {

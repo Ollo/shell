@@ -3,7 +3,7 @@
 ##a front end starting point
 
 
-This repo is primarily where I test new tools for my personal workflow and then encorporate them into actual projects.
+This repo is my personal sandbox for tools, frameworks etc.
 
 ```
 npm install

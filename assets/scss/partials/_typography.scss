@@ -3,3 +3,9 @@
 h1, h2, h3, h4 {
 
 }
+
+%truncate, .truncate {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

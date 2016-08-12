@@ -21,3 +21,6 @@ watch for sass changes or compile manually
 gulp watch
 gulp sass
 ```
+
+### License 
+[MIT](LICENSE.md)

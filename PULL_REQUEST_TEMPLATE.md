@@ -1,6 +1,6 @@
 # <Title>
 
-** Story or Task link**
+**Story or Task link**
 <http://issue.link>
 
 ### Details

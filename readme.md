@@ -1,25 +1,26 @@
 # < shell />
 
-##a front end starting point
+## A starting point for Front End  projects
+
+This repo serves as a personal place to experiment with tooling, frameworks and new ideas in the javascript ecosystem. 
+
+### Current Tools:
+- [ ] React
+- [ ] Redux
+- [ ] Redux First routing
+- [ ] Styled Components
+- [ ] Jest 
+- [ ] Babel
+- [ ] Webpack
+
+### Potential branches / ideas
+- [ ] Vue
+- [ ] MobX
 
 
-This repo is my personal sandbox for tools, frameworks etc.
-
+### Setup:
 ```
 npm install
-```
-
-run the dev server
-
-```
-npm run
-```
-
-watch for sass changes or compile manually
-
-```
-gulp watch
-gulp sass
 ```
 
 ### License 

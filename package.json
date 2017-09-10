@@ -1,27 +1,38 @@
 {
   "name": "shell",
   "description": "a starting point for front end projects",
-  "version": "0.0.2",
-  "author":  "<joshua@ollomedia.com> Joshua Ray",
+  "version": "0.1.0",
+  "author": "<joshua@ollomedia.com> Joshua Ray",
   "repository": {
     "type": "git",
     "url": "https://github.com/Ollo/shell.git"
   },
-  "scripts": {
-    "start": "nodemon server.js",
-    "postinstall": "gulp sass"
-  },
+  "scripts": {},
   "license": "MIT",
   "dependencies": {
-    "body-parser": "^1.15.0",
-    "express": "^4.13.4"
+    "react": "^15.6.1",
+    "prop-types": "^15.5.10",
+    "react-dom": "^15.6.1",
+    "react-redux": "^5.0.5",
+    "redux": "^3.7.1"
   },
   "devDependencies": {
-    "gulp": "^3.9.1",
-    "gulp-livereload": "^3.8.1",
-    "gulp-sass": "^2.2.0",
-    "gulp-sourcemaps": "^1.6.0",
-    "gulp-watch": "^4.3.5",
-    "nodemon": "^1.9.1"
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-plugin-dynamic-import": "^1.0.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2017": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.24.1",
+    "html-webpack-plugin": "^2.29.0",
+    "jest": "^20.0.4",
+    "redux-logger": "^3.0.6",
+    "webpack": "^3.1.0",
+    "webpack-dev-middleware": "^1.11.0",
+    "webpack-hot-middleware": "^2.18.2"
   }
 }

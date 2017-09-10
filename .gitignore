@@ -2,6 +2,4 @@
 */.DS_Store
 */*/.DS_Store
 
-.sass-cache
 node_modules
-assets/css/*

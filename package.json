@@ -7,11 +7,15 @@
     "type": "git",
     "url": "https://github.com/Ollo/shell.git"
   },
-  "scripts": {},
+  "scripts": {
+    "start": "node './server'"
+  },
   "license": "MIT",
   "dependencies": {
-    "react": "^15.6.1",
+    "express": "^4.15.4",
+    "nodemon": "^1.12.1",
     "prop-types": "^15.5.10",
+    "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-redux": "^5.0.5",
     "redux": "^3.7.1"

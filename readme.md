@@ -2,16 +2,16 @@
 
 ## A starting point for Front End  projects
 
-This repo serves as a personal place to experiment with tooling, frameworks and new ideas in the javascript ecosystem. 
+This repo serves as a sandbox to experiment with tooling, frameworks and new ideas in the javascript ecosystem. 
 
-### Current Tools:
-- [ ] React
-- [ ] Redux
+### Current Preferences:
+- [X] React
+- [X] Redux
 - [ ] Redux First routing
 - [ ] Styled Components
 - [ ] Jest 
-- [ ] Babel
-- [ ] Webpack
+- [X] Babel
+- [X] Webpack
 
 ### Potential branches / ideas
 - [ ] Vue

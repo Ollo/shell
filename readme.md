@@ -1,25 +1,18 @@
 # < shell />
 
-##a front end starting point
+## A starting point for Front End  projects
 
+This repo serves as a sandbox to experiment with tooling, frameworks and new ideas in the javascript ecosystem. 
 
-This repo is my personal sandbox for tools, frameworks etc.
+### Current Preferences:
+- React
+- Redux
+- Babel
+- Webpack
 
+### Setup:
 ```
 npm install
-```
-
-run the dev server
-
-```
-npm run
-```
-
-watch for sass changes or compile manually
-
-```
-gulp watch
-gulp sass
 ```
 
 ### License 

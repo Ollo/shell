@@ -3,9 +3,8 @@ const HtmlWebpackPlugin = require('html-webpack-plugin')
 const path = require('path')
 const config = require('../project.config')
 
-module.exports = {
+webpackConfig = {
   entry: [
-    `webpack-hot-middleware/client?path=http://localhost:${config.port}/__webpack_hmr&timeout=20000`,
     path.resolve(`${config.src}/main.js`),
   ],
   
@@ -43,3 +42,11 @@ module.exports = {
   devtool: 'eval-source-map'
   
 }
+
+if ( process.env.NODE_ENV === 'development') {
+  webpackConfig.entry.push(
+    `webpack-hot-middleware/client?path=http://localhost:${config.port}/__webpack_hmr&timeout=20000`
+  )
+}
+
+module.exports = webpackConfig

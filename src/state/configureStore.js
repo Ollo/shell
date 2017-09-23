@@ -1,4 +1,6 @@
 import { applyMiddleware, compose, createStore } from 'redux'
+import thunk from 'redux-thunk';
+
 import { createLogger } from 'redux-logger'
 
 import { buildRootReducer } from './reducers'
@@ -12,7 +14,7 @@ export default (initialState = {}, history) => {
   })
   
   // Middleware Config
-  const middleWare = [reduxLogger]
+  const middleWare = [thunk, reduxLogger]
   
   // Enhancers 
   const enhancers = []
